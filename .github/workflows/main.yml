@@ -11,11 +11,11 @@ jobs:
       - name: "minha primeira ação"
         run: echo "Hello World !!!"
       - name: "Segunda ação"
-        run:
+        run: |
           echo "Você criou o su primeiro Workflow !!!"
           echo "Parabéns !!!"
       - name:  "Script Python"
-        run: 
+        run: |
           variavel = "hello World !!!"
           print (variavel)
         shell: python
