@@ -17,5 +17,5 @@ jobs:
       - name:  "Script Python"
         run: 
           variavel = "hello World !!!"
-          print(variavel)
+          print (variavel)
         shell: python
